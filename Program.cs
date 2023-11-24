@@ -20,4 +20,4 @@ FoodManager foodManager = new(options, oauthToken, socketToken);
 
 
 Console.WriteLine("Connected. Press any key to exit...");
-await Task.Run(Console.ReadKey);
+await Task.Run(Console.Read);

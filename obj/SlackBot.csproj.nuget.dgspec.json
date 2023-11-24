@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nahuelmanterola/Documents/git/Hobby/SlackBot/SlackBot.csproj": {}
+  },
+  "projects": {
+    "/home/nahuelmanterola/Documents/git/Hobby/SlackBot/SlackBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nahuelmanterola/Documents/git/Hobby/SlackBot/SlackBot.csproj",
+        "projectName": "SlackBot",
+        "projectPath": "/home/nahuelmanterola/Documents/git/Hobby/SlackBot/SlackBot.csproj",
+        "packagesPath": "/home/nahuelmanterola/.nuget/packages/",
+        "outputPath": "/home/nahuelmanterola/Documents/git/Hobby/SlackBot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nahuelmanterola/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "SlackNet": {
+              "target": "Package",
+              "version": "[0.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
